@@ -5,6 +5,6 @@ jobs:
     runs_on: ubuntu-latest
     steps:
       - name: Hello World and good bye
-         run: |
+        run: |
           echo "Hello Naan da leo Das"
           echo "Good bye"
