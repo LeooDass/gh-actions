@@ -4,7 +4,8 @@ jobs:
   first_job:
     runs_on: ubuntu-latest
     steps:
-      '- name': Hello World and good bye
-      '- run': |
-        echo "Hello Naan da leo Das"
-        echo "Good bye"
+      - name: Hello World and good bye
+      - run: |
+          echo "Hello Naan da leo Das"
+          echo "Good bye"
+
